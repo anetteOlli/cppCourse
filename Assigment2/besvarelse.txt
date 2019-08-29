@@ -1,0 +1,13 @@
+Oppgave 2:
+
+Siden line pointeren ikke peker noe sted, kan vi ikke kopiere
+"Dette er en tekst". Vi har ingen adresse å kopiere dette til.
+Da får vi segfault error.
+
+Oppgave 3:
+
+Hvis det ikke finnes noen 'e' i tabellen vil while løkka fortsette uendelig.
+Dette er skummelt fordi da vil vi forsøke å skrive over alle minneadresser,
+ikke bare de som hører til tabellen. I teorien kunne man skrevet over hele minnet.
+Forhåpentligvis vil operativsystemet detektere dette og stoppe programmet.
+
