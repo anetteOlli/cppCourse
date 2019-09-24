@@ -8,15 +8,21 @@ public:
   Gtk::Entry surname;
   Gtk::Button button;
   Gtk::Label label;
+  Gtk::Label firstname_label;
+  Gtk::Label surname_label;
   std::string firstname_string;
   std::string surname_string;
 
   Window() {
     firstname_string = " ";
     surname_string = " ";
-    button.set_label("Click here");
-
-    vbox.pack_start(firstname);  //Add the widget entry to vbox
+    firstname.set_tooltip_text("first name");
+    firstname_label.set_text("first name:");
+    surname_label.set_text("last name");
+    button.set_label("Combine names");
+    vbox.pack_start(firstname_label);
+    vbox.pack_start(firstname);  //Add the widget entry to vboxAleksander
+    vbox.pack_start(surname_label);
     vbox.pack_start(surname);
     vbox.pack_start(button); //Add the widget button to vbox
     vbox.pack_start(label);  //Add the widget label to vbox
