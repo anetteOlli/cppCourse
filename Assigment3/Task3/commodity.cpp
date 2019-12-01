@@ -1,6 +1,8 @@
 
 #include "commodity.hpp"
 
+//Assigment 3, task3, commodity.hpp
+
 const double tax = 0.25;
 
 Commodity::Commodity(const string &name_, const int id_, const double price_) : name(name_), id(id_), price(price_) {}

@@ -4,6 +4,17 @@
 
 using namespace std;
 
+//Assigment 7, task 1, main.cpp
+
+/*
+OPPGAVETEKST:
+I oppgave a) og b) skal du jobbe videre med klassen Fraction fra leksjonen.
+
+a) Lag funksjoner slik at vi kan skrive fraction1 – 5 og 5 – fraction1. Utvid main.cpp slik at du får prøvd dette. Hint: Den ene funksjonen kan ikke være en medlemsfunksjon.
+
+b) Teori: Forklar hvordan 5 - 3 - fraction1 - 7 - fraction2 blir tolket. Hvilke versjoner av operatoren - blir brukt?
+*/
+
 void print(const string &text, const Fraction &broek) {
   cout << text << broek.numerator << " / " << broek.denominator << endl;
 }

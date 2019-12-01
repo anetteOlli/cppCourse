@@ -1,5 +1,7 @@
 #pragma once
 
+//Assigment 7, task 1, fraction.hpp
+
 class Fraction {
 public:
   int numerator;

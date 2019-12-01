@@ -4,6 +4,8 @@
 #include <sstream>
 #include <string>
 
+//Assigment 7, Task 1, fraction.cpp
+
 using namespace std;
 
 Fraction::Fraction() : numerator(0), denominator(1) {}

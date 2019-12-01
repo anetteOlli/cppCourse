@@ -1,6 +1,8 @@
 #include <string>
 using namespace std;
 
+//Assigment 3, task3, commodity.hpp
+
 
 class Commodity {
 public:

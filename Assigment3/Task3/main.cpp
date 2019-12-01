@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 
+//Assigment 3, task3 main.cpp
+
 using namespace std;
 
 int main() {

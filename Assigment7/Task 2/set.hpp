@@ -1,6 +1,8 @@
 #pragma once
 #include <vector>
 
+//Assigment 7, task 2, set.hpp
+
 class Set {
 public:
     std::vector<int> set_vector;

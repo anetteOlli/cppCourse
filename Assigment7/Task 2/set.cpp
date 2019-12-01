@@ -2,6 +2,8 @@
 #include <algorithm> // std::find
 #include <vector>
 
+//Assigment 7, task 2, set.cpp
+
 Set::Set(const std::vector<int> &set_vector_) {
     for (int element : set_vector_) {
         set_new_element(element);

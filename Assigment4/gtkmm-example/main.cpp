@@ -1,6 +1,12 @@
 #include <gtkmm.h>
 #include <string>
 
+//Assigment 4, gtkmm-example
+
+/*
+Ta utgangspunkt i https://gitlab.com/ntnu-iini4003/gtkmm-example og lag eit lite program som slår sammen inntastet fornavn og etternavn når du klikker på en knapp. Knappen skal kun være sensitiv når både fornavn og etternavn er tastet inn, og grået ut ellers (ikke sensitiv). Sett også tittel på vinduet. To eksempler på hvordan programmet kan se ut er vist under:
+*/
+
 class Window : public Gtk::Window {
 public:
   Gtk::VBox vbox;

@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//Assigment 1: taskA main.cpp
+
 /*
 Oppgavebeskrivelse:
 Les inn temperaturene (datatype double) fra brukeren. Bruk ikke tabeller, og lag heller ikke egne funksjoner. Brukergrensesnittet kan se slik ut:

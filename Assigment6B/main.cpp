@@ -4,6 +4,18 @@
 using namespace std;
 using namespace boost::asio::ip;
 
+//Assigment 6, B, main.cpp
+
+/*
+OPPGAVETEKST:
+Oppgave 2 - Ta utgangspunkt i example6 og lag en enkel web-server som svarer på følgende GET forespørsler:
+GET / HTTP/1.1
+I en nettleser (http://localhost:8080) skal følgende tekst vises: Dette er hovedsiden
+GET /en_side HTTP/1.1
+I en nettleser (http://localhost:8080/en_side) skal følgende tekst vises: Dette er en side
+Andre forespørsler skal gi status koden 404 Not Found
+*/
+
 class EchoServer {
 private:
     class Connection {

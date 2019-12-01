@@ -4,6 +4,7 @@
 #include <vector>
 #include <cmath>        // std::abs
 
+// Assigment 5, main.cpp
 using namespace std;
 
 class ChessBoard {

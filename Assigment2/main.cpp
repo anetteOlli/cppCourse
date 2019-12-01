@@ -2,6 +2,8 @@
 
 using namespace std;
 
+//Assigment2
+
 int find_sum(const int *table, int length){
     int sum = 0;
     for (int i = 0; i < length; i++){

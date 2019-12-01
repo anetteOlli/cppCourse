@@ -7,6 +7,18 @@
 
 using namespace std;
 
+//Assigment 6, main.cpp
+
+/*
+OPPGAVETEKST: 
+Oppgave 1 - Jobb videre med sjakkbrett-løsningen deres fra Øving 5:
+lag en klasse ChessBoardPrint som tar seg av utskrift (std::cout kallene) til terminalen
+ChessBoardPrint må ha tilgang til ChessBoard instansen, for eksempel i main(): ChessBoard board; ChessBoardPrint print(board);
+I konstruktøren til ChessBoardPrint skal dere definere funksjonsobjektene til ChessBoard instansen ved hjelp av lambda uttrykk.
+Utskriften av sjakkbrettet etter et sjakktrekk skal også foregå i ChessBoardPrint.
+Legg til et eget funksjonsobjekt i ChessBoard (for eksempel after_piece_move) som blir kjørt etter et trekk er utført. Definer dette funksjonsobjektet i ChessBoardPrint.
+
+*/
 
 class ChessBoard {
 public:

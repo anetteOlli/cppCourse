@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//Assigment1: taskB main.cpp
+
 /*
  * Les inn temperaturene fra en fil og lagre dem i en tabell før du begynner opptellingen.
  * Innlesingen fra fil skal ligge i en funksjon med følgende prototyp (deklarasjon):
